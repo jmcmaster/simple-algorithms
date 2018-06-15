@@ -28,7 +28,7 @@ function computeFactorial(num) {
 
 computeFactorial(5);
 
-// This is a solition uses recursion and memoization
+// This solution uses recursion and memoization
 // to cache calculations in an object.
 function memoize(cb) {
   let cache = {};
